@@ -15,6 +15,7 @@ mkdir -p ~/development && cd ~/development
 wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.16.3-stable.tar.xz
 sudo tar -xf flutter_linux_3.16.3-stable.tar.xz
 export PATH="$HOME/development/flutter/bin:$PATH"
+source ~/.bashrc
 echo "Flutter versión instalada:"
 flutter --version
 
